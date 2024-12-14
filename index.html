@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> iPhone store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>iPhone store</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Home</a></li>
+                <li><a href="#products">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">The cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="products">
+        <h2> Available Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="14.jpg.jpg" alt="iPhone 14">
+                <h3>iPhone 14</h3>
+                <p>price: $999</p>
+                <button class="add-to-cart" data-name="iPhone 14" data-price="999">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="13.jpg.png" alt="iPhone 13">
+                <h3>iPhone 13</h3>
+                <p>price: $799</p>
+                <button class="add-to-cart" data-name="iPhone 13" data-price="799">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="12.jpg.jpg" alt="iPhone 12">
+                <h3>iPhone 12</h3>
+                <p>price: $599</p>
+                <button class="add-to-cart" data-name="iPhone 12" data-price="599">Add to cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="cart">
+        <h2>cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">total: $0</p>
+    </section>
+    <footer>
+        <p>Copyright&copy; 2024 - store iPhone</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
